@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/jass.css" />
+    <title>Local Weather</title>
+  </head>
+  <header>
+    <h1>Your Weather Dashboard</h1>
+  </header>
+
+  <body>
+    <br>
+    <div id="cityDropdown">
+        <h2>City dropdown</h2>
+        <p> Saved search cites</p>
+        <form>
+            <label for="search">Search for a city:</label>
+            <input type="text" id="searchvalue" placeholder="Enter a city name">
+            <button id="searchbtn">Search</button>
+        </form>
+    </div>
+    <div id="cityData">
+        <h2>City Data</h2>
+        <div id="cityDataCard">
+            city data
+        </div>
+    </div>
+    <div id="cityforecast">
+        <h2>5-Day forcast</h2>
+        <div id="fivedayforecast">
+            <p> 5 day forcast</p>
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+  </body>
+</html>

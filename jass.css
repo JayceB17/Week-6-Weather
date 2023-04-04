@@ -1,0 +1,52 @@
+body {
+  background-color: aqua;
+align-items: center;}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(43, 88, 235);
+  border-style: dashed;
+  border-color: black;
+  color: white;
+}
+
+#cityDropdown {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 20vw;
+  height: 70vh;
+  float: left;
+  padding: 2vh;
+  background-color: aqua;
+
+
+}
+
+#cityData {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  height: 35vh;
+  float: right;
+  margin: left 5px;
+  padding: 10px;
+  background-color: rgb(43, 88, 235);
+  border-color: black;
+  border-style: dashed;
+}
+
+#cityforecast {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  height: 35vh;
+  float: right;
+  margin-top: 10px;
+  padding: 10px;
+  background-color:rgb(43, 88, 235);
+  border-color: black;
+  border-style: dashed;
+}
